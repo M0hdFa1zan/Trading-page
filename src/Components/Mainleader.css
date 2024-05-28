@@ -1,0 +1,105 @@
+.mainlead {
+    display: flex;
+    justify-content: center;
+}
+
+.inmain {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    flex-direction: column;
+}
+
+.heading {
+    text-decoration: underline;
+    font-size: large;
+    margin-top: 50px;
+    color: #135058;
+}
+
+.leadermenu {
+    display: flex;
+    width: 100%;
+}
+
+.inleadermenu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.menuhead {
+    color: #135058;
+    display: flex;
+    padding: 10px;
+    border-bottom: 2px solid #135058;
+    justify-content: space-between;
+}
+
+.basic {
+    font-size: 25px;
+}
+
+.slipmenu {
+    display: flex;
+    align-items: center;
+}
+
+.slipmenu select {
+    border: 2px solid #135058;
+    border-radius: 10px;
+
+}
+
+.menudetail {
+    display: flex;
+    margin-top: 40px;
+}
+
+.headrow {
+    text-align: center;
+}
+
+.rows {
+    margin: 10px;
+}
+
+th {
+    color: #135058;
+}
+
+tr {
+    height: 50px;
+    border: 1px solid lightgray;
+}
+
+table {
+    text-align: center;
+    align-content: center;
+    border-collapse: collapse;
+}
+
+tr:nth-child() {
+    border: solid thin;
+}
+
+.menudetail table {
+    width: 100%;
+}
+
+.firstcoloumn {
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.secondcoloumn {
+    position: relative;
+    width: 13%;
+    text-align: left;
+    margin-left: 200px;
+    left: 30px;
+}
+
+.lastcoloumn {
+    color: blue;
+}
