@@ -22,3 +22,8 @@
         align-items: center;
     }
 }
+
+.inleadertab div:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

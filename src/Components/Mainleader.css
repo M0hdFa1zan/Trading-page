@@ -79,6 +79,13 @@ table {
     border-collapse: collapse;
 }
 
+
+table td:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
 tr:nth-child() {
     border: solid thin;
 }
